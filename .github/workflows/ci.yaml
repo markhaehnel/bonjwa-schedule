@@ -13,6 +13,6 @@ jobs:
           go-version: '1.13.6'
       - run: go build
       - uses: actions/upload-artifact@v1
-      with:
-        name: bonjwa-schedule-api
-        path: bonjwa-schedule-api
+        with:
+          name: bonjwa-schedule-api
+          path: bonjwa-schedule-api
